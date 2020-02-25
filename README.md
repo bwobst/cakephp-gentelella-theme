@@ -23,8 +23,9 @@ Plugin::load('Gentelella', ['bootstrap' => true, 'routes' => true]);
 
 ```php
 // src/Controller/AppController.php
+use Cake\Event\EventInterface;
 
-public function beforeRender(Event $event)
+public function beforeRender(EventInterface $event)
 {
     $this->viewBuilder()->theme('Gentelella');
 }
