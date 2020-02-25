@@ -15,5 +15,3 @@ Configure::write('Theme', [
         'show_social' => true
     ]
 ]);
-
-Plugin::load('BootstrapUI');

@@ -20,10 +20,10 @@ if (file_exists($file)) {
                 <?= $this->Form->create() ?>
                     <h1><?php echo isset($theme['title']) ? $theme['title'] : 'Gentelella'; ?></h1>
                     <div>
-                        <?= $this->Form->input('username',['class'=>'form-control','placeholder'=>'Email','label'=>false,'required'=>true]) ?>
+                        <?= $this->Form->control('username',['class'=>'form-control','placeholder'=>'Email','label'=>false,'required'=>true]) ?>
                     </div>
                     <div>
-                        <?= $this->Form->input('password',['class'=>'form-control','placeholder'=>'Senha de Acesso','label'=>false,'required'=>true]) ?>
+                        <?= $this->Form->control('password',['class'=>'form-control','placeholder'=>'Senha de Acesso','label'=>false,'required'=>true]) ?>
                     </div>
                     <div>
                         <?= $this->Form->button(__d('gentelella','Login'),['class'=>'btn btn-primary btn-block btn-flat']); ?>

@@ -59,11 +59,11 @@ use Cake\Utility\Inflector;
                                 $fieldData = $schema->column($field);
                                 if (!empty($fieldData['null'])) {
                                     %>
-                                    echo $this->Form->input('<%= $field %>', ['options' => $<%= $keyFields[$field] %>, 'empty' => true, 'placeholder' => $<%= $singularVar %>-><%= $field %>, 'disabled' => true]);
+                                    echo $this->Form->control('<%= $field %>', ['options' => $<%= $keyFields[$field] %>, 'empty' => true, 'placeholder' => $<%= $singularVar %>-><%= $field %>, 'disabled' => true]);
 <%
         } else {
                                     %>
-                                    echo $this->Form->input('<%= $field %>', ['options' => $<%= $keyFields[$field] %>, $<%= $singularVar %>-><%= $field %>, 'disabled' => true]);
+                                    echo $this->Form->control('<%= $field %>', ['options' => $<%= $keyFields[$field] %>, $<%= $singularVar %>-><%= $field %>, 'disabled' => true]);
 <%
         }
                                 continue;
@@ -72,11 +72,11 @@ use Cake\Utility\Inflector;
                                 $fieldData = $schema->column($field);
                                 if (($fieldData['type'] === 'date') && (!empty($fieldData['null']))) {
                                     %>
-                                    echo $this->Form->input('<%= $field %>', ['empty' => true, 'default' => '']);
+                                    echo $this->Form->control('<%= $field %>', ['empty' => true, 'default' => '']);
                                     <%
                                 } else {
                                     %>
-                                    echo $this->Form->input('<%= $field %>', ['placeholder' => $<%= $singularVar %>-><%= $field %>, 'disabled' => true]);
+                                    echo $this->Form->control('<%= $field %>', ['placeholder' => $<%= $singularVar %>-><%= $field %>, 'disabled' => true]);
 <%
         }
                             }
@@ -84,7 +84,7 @@ use Cake\Utility\Inflector;
                         if (!empty($associations['BelongsToMany'])) {
                             foreach ($associations['BelongsToMany'] as $assocName => $assocData) {
                                 %>
-                                echo $this->Form->input('<%= $assocData['property'] %>._ids', ['options' => $<%= $assocData['variable'] %>]);
+                                echo $this->Form->control('<%= $assocData['property'] %>._ids', ['options' => $<%= $assocData['variable'] %>]);
 <%
       }
                         }
