@@ -53,7 +53,7 @@
                     </ul>
                   </div>
                   <div class="right col-xs-5 text-center">
-                    <img src="images/img.jpg" alt="" class="img-circle img-responsive">
+                  <?php echo $this->Html->image('Gentelella./images/img.jpg', ['class' => 'img-circle img-responsive']) ?>
                   </div>
                 </div>
                 <div class="col-xs-12 bottom text-center">
@@ -91,7 +91,7 @@
                     </ul>
                   </div>
                   <div class="right col-xs-5 text-center">
-                    <img src="images/user.png" alt="" class="img-circle img-responsive">
+                    <?php echo $this->Html->image('Gentelella./images/user.png', [ 'class' => 'img-circle img-responsive']) ?>
                   </div>
                 </div>
                 <div class="col-xs-12 bottom text-center">
@@ -129,7 +129,7 @@
                     </ul>
                   </div>
                   <div class="right col-xs-5 text-center">
-                    <img src="images/user.png" alt="" class="img-circle img-responsive">
+                    <?php echo $this->Html->image('Gentelella./images/user.png', [ 'class' => 'img-circle img-responsive']) ?>
                   </div>
                 </div>
                 <div class="col-xs-12 bottom text-center">
@@ -167,7 +167,7 @@
                     </ul>
                   </div>
                   <div class="right col-xs-5 text-center">
-                    <img src="images/user.png" alt="" class="img-circle img-responsive">
+                    <?php echo $this->Html->image('Gentelella./images/user.png', [ 'class' => 'img-circle img-responsive']) ?>
                   </div>
                 </div>
                 <div class="col-xs-12 bottom text-center">
@@ -205,7 +205,7 @@
                     </ul>
                   </div>
                   <div class="right col-xs-5 text-center">
-                    <img src="images/img.jpg" alt="" class="img-circle img-responsive">
+                  <?php echo $this->Html->image('Gentelella./images/img.jpg', ['class' => 'img-circle img-responsive']) ?>
                   </div>
                 </div>
                 <div class="col-xs-12 bottom text-center">
@@ -243,7 +243,7 @@
                     </ul>
                   </div>
                   <div class="right col-xs-5 text-center">
-                    <img src="images/user.png" alt="" class="img-circle img-responsive">
+                    <?php echo $this->Html->image('Gentelella./images/user.png', [ 'class' => 'img-circle img-responsive']) ?>
                   </div>
                 </div>
                 <div class="col-xs-12 bottom text-center">
@@ -281,7 +281,7 @@
                     </ul>
                   </div>
                   <div class="right col-xs-5 text-center">
-                    <img src="images/user.png" alt="" class="img-circle img-responsive">
+                    <?php echo $this->Html->image('Gentelella./images/user.png', [ 'class' => 'img-circle img-responsive']) ?>
                   </div>
                 </div>
                 <div class="col-xs-12 bottom text-center">
@@ -319,7 +319,7 @@
                     </ul>
                   </div>
                   <div class="right col-xs-5 text-center">
-                    <img src="images/user.png" alt="" class="img-circle img-responsive">
+                    <?php echo $this->Html->image('Gentelella./images/user.png', [ 'class' => 'img-circle img-responsive']) ?>
                   </div>
                 </div>
                 <div class="col-xs-12 bottom text-center">
@@ -357,7 +357,7 @@
                     </ul>
                   </div>
                   <div class="right col-xs-5 text-center">
-                    <img src="images/user.png" alt="" class="img-circle img-responsive">
+                    <?php echo $this->Html->image('Gentelella./images/user.png', [ 'class' => 'img-circle img-responsive']) ?>
                   </div>
                 </div>
                 <div class="col-xs-12 bottom text-center">

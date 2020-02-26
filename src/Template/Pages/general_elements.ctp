@@ -1278,8 +1278,8 @@
         <ul class="list-unstyled msg_list">
           <li>
             <a>
-                        <span class="image">
-                          <img src="images/img.jpg" alt="img" />
+                        <span class="image">rk
+                          <?php echo $this->Html->image('Gentelella./images/img.jpg', ['alt' => 'img']) ?>
                         </span>
               <span>
                           <span>John Smith</span>
@@ -1293,7 +1293,7 @@
           <li>
             <a>
                         <span class="image">
-                          <img src="images/img.jpg" alt="img" />
+                          <?php echo $this->Html->image('Gentelella./images/img.jpg', ['alt' => 'img']) ?>
                         </span>
               <span>
                           <span>John Smith</span>
@@ -1307,7 +1307,7 @@
           <li>
             <a>
                         <span class="image">
-                          <img src="images/img.jpg" alt="img" />
+                        <?php echo $this->Html->image('Gentelella./images/img.jpg', ['alt' => 'img']) ?>
                         </span>
               <span>
                           <span>John Smith</span>
@@ -1321,7 +1321,7 @@
           <li>
             <a>
                         <span class="image">
-                          <img src="images/img.jpg" alt="img" />
+                        <?php echo $this->Html->image('Gentelella./images/img.jpg', ['alt' => 'img']) ?>
                         </span>
               <span>
                           <span>John Smith</span>

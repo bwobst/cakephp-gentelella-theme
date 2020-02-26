@@ -283,7 +283,7 @@
                         </a>
                       </li>
                       <li>
-                        <img src="images/user.png" alt="..." class="img-circle profile_img">
+                      <?php echo $this->Html->image('Gentelella./images/user.png', ['class' => 'img-circle profile_img']) ?>
                       </li>
                       <li>
                         <a>

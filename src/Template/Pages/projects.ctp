@@ -67,16 +67,16 @@
               <td>
                 <ul class="list-inline">
                   <li>
-                    <img src="images/user.png" class="avatar" alt="Avatar">
+                  <?php echo $this->Html->image('Gentelella./images/user.png', ['alt' => 'Avatar', 'class' => 'avatar']) ?>
                   </li>
                   <li>
-                    <img src="images/user.png" class="avatar" alt="Avatar">
+                    <?php echo $this->Html->image('Gentelella./images/user.png', ['alt' => 'Avatar', 'class' => 'avatar']) ?>
                   </li>
                   <li>
-                    <img src="images/user.png" class="avatar" alt="Avatar">
+                    <?php echo $this->Html->image('Gentelella./images/user.png', ['alt' => 'Avatar', 'class' => 'avatar']) ?>
                   </li>
                   <li>
-                    <img src="images/user.png" class="avatar" alt="Avatar">
+                    <?php echo $this->Html->image('Gentelella./images/user.png', ['alt' => 'Avatar', 'class' => 'avatar']) ?>
                   </li>
                 </ul>
               </td>
@@ -105,10 +105,10 @@
               <td>
                 <ul class="list-inline">
                   <li>
-                    <img src="images/user.png" class="avatar" alt="Avatar">
+                    <?php echo $this->Html->image('Gentelella./images/user.png', ['alt' => 'Avatar', 'class' => 'avatar']) ?>
                   </li>
                   <li>
-                    <img src="images/user.png" class="avatar" alt="Avatar">
+                    <?php echo $this->Html->image('Gentelella./images/user.png', ['alt' => 'Avatar', 'class' => 'avatar']) ?>
                   </li>
                 </ul>
               </td>
@@ -137,13 +137,13 @@
               <td>
                 <ul class="list-inline">
                   <li>
-                    <img src="images/user.png" class="avatar" alt="Avatar">
+                    <?php echo $this->Html->image('Gentelella./images/user.png', ['alt' => 'Avatar', 'class' => 'avatar']) ?>
                   </li>
                   <li>
-                    <img src="images/user.png" class="avatar" alt="Avatar">
+                    <?php echo $this->Html->image('Gentelella./images/user.png', ['alt' => 'Avatar', 'class' => 'avatar']) ?>
                   </li>
                   <li>
-                    <img src="images/user.png" class="avatar" alt="Avatar">
+                    <?php echo $this->Html->image('Gentelella./images/user.png', ['alt' => 'Avatar', 'class' => 'avatar']) ?>
                   </li>
                 </ul>
               </td>
@@ -172,16 +172,16 @@
               <td>
                 <ul class="list-inline">
                   <li>
-                    <img src="images/user.png" class="avatar" alt="Avatar">
+                    <?php echo $this->Html->image('Gentelella./images/user.png', ['alt' => 'Avatar', 'class' => 'avatar']) ?>
                   </li>
                   <li>
-                    <img src="images/user.png" class="avatar" alt="Avatar">
+                    <?php echo $this->Html->image('Gentelella./images/user.png', ['alt' => 'Avatar', 'class' => 'avatar']) ?>
                   </li>
                   <li>
-                    <img src="images/user.png" class="avatar" alt="Avatar">
+                    <?php echo $this->Html->image('Gentelella./images/user.png', ['alt' => 'Avatar', 'class' => 'avatar']) ?>
                   </li>
                   <li>
-                    <img src="images/user.png" class="avatar" alt="Avatar">
+                    <?php echo $this->Html->image('Gentelella./images/user.png', ['alt' => 'Avatar', 'class' => 'avatar']) ?>
                   </li>
                 </ul>
               </td>
@@ -210,13 +210,13 @@
               <td>
                 <ul class="list-inline">
                   <li>
-                    <img src="images/user.png" class="avatar" alt="Avatar">
+                    <?php echo $this->Html->image('Gentelella./images/user.png', ['alt' => 'Avatar', 'class' => 'avatar']) ?>
                   </li>
                   <li>
-                    <img src="images/user.png" class="avatar" alt="Avatar">
+                    <?php echo $this->Html->image('Gentelella./images/user.png', ['alt' => 'Avatar', 'class' => 'avatar']) ?>
                   </li>
                   <li>
-                    <img src="images/user.png" class="avatar" alt="Avatar">
+                    <?php echo $this->Html->image('Gentelella./images/user.png', ['alt' => 'Avatar', 'class' => 'avatar']) ?>
                   </li>
                 </ul>
               </td>
@@ -245,16 +245,16 @@
               <td>
                 <ul class="list-inline">
                   <li>
-                    <img src="images/user.png" class="avatar" alt="Avatar">
+                    <?php echo $this->Html->image('Gentelella./images/user.png', ['alt' => 'Avatar', 'class' => 'avatar']) ?>
                   </li>
                   <li>
-                    <img src="images/user.png" class="avatar" alt="Avatar">
+                    <?php echo $this->Html->image('Gentelella./images/user.png', ['alt' => 'Avatar', 'class' => 'avatar']) ?>
                   </li>
                   <li>
-                    <img src="images/user.png" class="avatar" alt="Avatar">
+                    <?php echo $this->Html->image('Gentelella./images/user.png', ['alt' => 'Avatar', 'class' => 'avatar']) ?>
                   </li>
                   <li>
-                    <img src="images/user.png" class="avatar" alt="Avatar">
+                    <?php echo $this->Html->image('Gentelella./images/user.png', ['alt' => 'Avatar', 'class' => 'avatar']) ?>
                   </li>
                 </ul>
               </td>
@@ -283,10 +283,10 @@
               <td>
                 <ul class="list-inline">
                   <li>
-                    <img src="images/user.png" class="avatar" alt="Avatar">
+                    <?php echo $this->Html->image('Gentelella./images/user.png', ['alt' => 'Avatar', 'class' => 'avatar']) ?>
                   </li>
                   <li>
-                    <img src="images/user.png" class="avatar" alt="Avatar">
+                    <?php echo $this->Html->image('Gentelella./images/user.png', ['alt' => 'Avatar', 'class' => 'avatar']) ?>
                   </li>
                 </ul>
               </td>
@@ -315,13 +315,13 @@
               <td>
                 <ul class="list-inline">
                   <li>
-                    <img src="images/user.png" class="avatar" alt="Avatar">
+                    <?php echo $this->Html->image('Gentelella./images/user.png', ['alt' => 'Avatar', 'class' => 'avatar']) ?>
                   </li>
                   <li>
-                    <img src="images/user.png" class="avatar" alt="Avatar">
+                    <?php echo $this->Html->image('Gentelella./images/user.png', ['alt' => 'Avatar', 'class' => 'avatar']) ?>
                   </li>
                   <li>
-                    <img src="images/user.png" class="avatar" alt="Avatar">
+                    <?php echo $this->Html->image('Gentelella./images/user.png', ['alt' => 'Avatar', 'class' => 'avatar']) ?>
                   </li>
                 </ul>
               </td>
@@ -350,16 +350,16 @@
               <td>
                 <ul class="list-inline">
                   <li>
-                    <img src="images/user.png" class="avatar" alt="Avatar">
+                    <?php echo $this->Html->image('Gentelella./images/user.png', ['alt' => 'Avatar', 'class' => 'avatar']) ?>
                   </li>
                   <li>
-                    <img src="images/user.png" class="avatar" alt="Avatar">
+                    <?php echo $this->Html->image('Gentelella./images/user.png', ['alt' => 'Avatar', 'class' => 'avatar']) ?>
                   </li>
                   <li>
-                    <img src="images/user.png" class="avatar" alt="Avatar">
+                    <?php echo $this->Html->image('Gentelella./images/user.png', ['alt' => 'Avatar', 'class' => 'avatar']) ?>
                   </li>
                   <li>
-                    <img src="images/user.png" class="avatar" alt="Avatar">
+                    <?php echo $this->Html->image('Gentelella./images/user.png', ['alt' => 'Avatar', 'class' => 'avatar']) ?>
                   </li>
                 </ul>
               </td>

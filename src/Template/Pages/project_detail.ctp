@@ -70,7 +70,7 @@
               <!-- end of user messages -->
               <ul class="messages">
                 <li>
-                  <img src="images/img.jpg" class="avatar" alt="Avatar">
+                <?php echo $this->Html->image('Gentelella./images/img.jpg', ['alt' => 'Avatar', 'class' => 'avatar']) ?>
                   <div class="message_date">
                     <h3 class="date text-info">24</h3>
                     <p class="month">May</p>
@@ -86,7 +86,7 @@
                   </div>
                 </li>
                 <li>
-                  <img src="images/img.jpg" class="avatar" alt="Avatar">
+                <?php echo $this->Html->image('Gentelella./images/img.jpg', ['alt' => 'Avatar', 'class' => 'avatar']) ?>
                   <div class="message_date">
                     <h3 class="date text-error">21</h3>
                     <p class="month">May</p>
@@ -102,7 +102,7 @@
                   </div>
                 </li>
                 <li>
-                  <img src="images/img.jpg" class="avatar" alt="Avatar">
+                <?php echo $this->Html->image('Gentelella./images/img.jpg', ['alt' => 'Avatar', 'class' => 'avatar']) ?>
                   <div class="message_date">
                     <h3 class="date text-info">24</h3>
                     <p class="month">May</p>
