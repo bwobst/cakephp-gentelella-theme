@@ -16,7 +16,8 @@
   "require": {
     "php": ">=5.4.16",
     "cakephp/cakephp": "~3.0",
-    "friendsofcake/bootstrap-ui":"@stable"
+    "friendsofcake/bootstrap-ui":"@stable",
+    "twbs/bootstrap":"3.3.6"
   },
   "require-dev": {
     "phpunit/phpunit": "*"

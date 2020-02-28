@@ -1,0 +1,9 @@
+{
+    "config": {
+        "vendor-dir": "vendors"
+    },
+    "require": {
+        "twbs/bootstrap": "3.3.6",
+        "components/jquery": "1.9.1"
+    }
+}

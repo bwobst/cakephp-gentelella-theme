@@ -8,7 +8,7 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
     <!-- Bootstrap 3.3.5 -->
-    <?php echo $this->Html->css('Gentelella./vendors/bootstrap/dist/css/bootstrap.min'); ?>
+    <?php echo $this->Html->css('Gentelella./vendors/twbs/bootstrap/dist/css/bootstrap.min'); ?>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- Ionicons -->
@@ -54,7 +54,7 @@
 <!-- jQuery 2.1.4 -->
 <?php echo $this->Html->script('Gentelella./vendors/jquery/dist/jquery.min'); ?>
 <!-- Bootstrap 3.3.5 -->
-<?php echo $this->Html->script('Gentelella./vendors/bootstrap/dist/js/bootstrap.min'); ?>
+<?php echo $this->Html->script('Gentelella./vendors/twbs/bootstrap/dist/js/bootstrap.min'); ?>
 <!-- SlimScroll -->
 <?php echo $this->Html->script('Gentelella./vendors/fastclick/lib/fastclick'); ?>
 <!-- FastClick -->
