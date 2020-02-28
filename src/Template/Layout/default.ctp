@@ -11,14 +11,15 @@
     <?php echo $this->Html->css('Gentelella./vendors/twbs/bootstrap/dist/css/bootstrap.min'); ?>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <?php if (false) { ?>
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 
     <?php echo $this->Html->css('Gentelella./vendors/fronteed/icheck/skins/flat/green'); ?>
     <?php echo $this->Html->css('Gentelella./vendors/minddust/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min'); ?>
     <?php echo $this->Html->css('Gentelella./css/maps/jquery-jvectormap-2.0.3'); ?>
+    <?php } ?>
     <?php echo $this->Html->css('Gentelella./build/css/custom.min'); ?>
-    <?php echo $this->Html->css('/css/custom'); ?>
 
     <?php echo $this->fetch('css'); ?>
 
@@ -53,6 +54,7 @@
 
 <?php echo $this->Html->script('Gentelella./vendors/components/jquery/jquery.min'); ?>
 <?php echo $this->Html->script('Gentelella./vendors/twbs/bootstrap/dist/js/bootstrap.min'); ?>
+<?php if (false) { ?>
 <?php echo $this->Html->script('Gentelella./vendors/ftlabs/fastclick/lib/fastclick'); ?>
 <?php echo $this->Html->script('Gentelella./vendors/rstacruz/nprogress/nprogress'); ?>
 <?php echo $this->Html->script('Gentelella./vendors/Chart.js/dist/Chart.min'); ?>
@@ -71,11 +73,13 @@
 <?php echo $this->Html->script('Gentelella./js/maps/jquery-jvectormap-2.0.3.min'); ?>
 <?php echo $this->Html->script('Gentelella./js/moment/moment.min'); ?>
 <?php echo $this->Html->script('Gentelella./js/datepicker/daterangepicker'); ?>
-<?php echo $this->Html->script('Gentelella./build/js/custom.min'); ?>
+<?php } ?>
+<?php echo $this->Html->script('Gentelella./build/js/custom'); ?>
 
 <?php echo $this->fetch('script'); ?>
 <?php echo $this->fetch('scriptBottom'); ?>
 
+<?php if (false) { ?>
 <!-- bootstrap-daterangepicker -->
 <script>
     $(document).ready(function() {
@@ -149,6 +153,7 @@
     });
 </script>
 <!-- /bootstrap-daterangepicker -->
+<?php } ?>
 
 </body>
 </html>
