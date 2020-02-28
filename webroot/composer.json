@@ -6,8 +6,8 @@
         "twbs/bootstrap": "3.3.6",
         "components/jquery": "2.2.4",
         "ftlabs/fastclick": "*",
-        "rstacruz/nprogress": "*"
-
+        "rstacruz/nprogress": "*",
+        "fronteed/icheck": "*"
     },
     "repositories": [
         {
@@ -25,12 +25,12 @@
         {
             "type":"package",
             "package": {
-                "name": "rstacruz/nprogress",
-                "version": "0.2.0",
+                "name": "fronteed/icheck",
+                "version": "1.0.2",
                 "source": {
-                    "url": "https://github.com/rstacruz/nprogress",
+                    "url": "https://github.com/fronteed/icheck",
                     "type": "git",
-                    "reference":"tags/v0.2.0"
+                    "reference":"tags/1.0.2"
                 }
             }
         }

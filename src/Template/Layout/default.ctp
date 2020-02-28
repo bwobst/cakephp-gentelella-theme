@@ -14,7 +14,7 @@
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 
-    <?php echo $this->Html->css('Gentelella./vendors/iCheck/skins/flat/green'); ?>
+    <?php echo $this->Html->css('Gentelella./vendors/fronteed/icheck/skins/flat/green'); ?>
     <?php echo $this->Html->css('Gentelella./vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min'); ?>
     <?php echo $this->Html->css('Gentelella./css/maps/jquery-jvectormap-2.0.3'); ?>
     <?php echo $this->Html->css('Gentelella./build/css/custom.min'); ?>
@@ -58,7 +58,7 @@
 <?php echo $this->Html->script('Gentelella./vendors/Chart.js/dist/Chart.min'); ?>
 <?php echo $this->Html->script('Gentelella./vendors/bernii/gauge.js/dist/gauge.min'); ?>
 <?php echo $this->Html->script('Gentelella./vendors/bootstrap-progressbar/bootstrap-progressbar.min'); ?>
-<?php echo $this->Html->script('Gentelella./vendors/iCheck/icheck.min'); ?>
+<?php echo $this->Html->script('Gentelella./vendors/fronteed/icheck/icheck.min'); ?>
 <?php echo $this->Html->script('Gentelella./vendors/skycons/skycons'); ?>
 <?php echo $this->Html->script('Gentelella./vendors/Flot/jquery.flot'); ?>
 <?php echo $this->Html->script('Gentelella./vendors/Flot/jquery.flot.pie'); ?>
