@@ -49,7 +49,7 @@
             <div class="col-md-55">
               <div class="thumbnail">
                 <div class="image view view-first">
-                  <img style="width: 100%; display: block;" src="images/4.jpg" alt="image" />
+                  <?php echo $this->Html->image('Gentelella./images/4.jpg', ['alt' => 'image', 'style' => 'width:100%;display:block']) ?>
                   <div class="mask">
                     <p>Your Text</p>
                     <div class="tools tools-bottom">
@@ -67,7 +67,7 @@
             <div class="col-md-55">
               <div class="thumbnail">
                 <div class="image view view-first">
-                  <img style="width: 100%; display: block;" src="images/4.jpg" alt="image" />
+                  <?php echo $this->Html->image('Gentelella./images/4.jpg', ['alt' => 'image', 'style' => 'width:100%;display:block']) ?>
                   <div class="mask">
                     <p>Your Text</p>
                     <div class="tools tools-bottom">
@@ -85,7 +85,7 @@
             <div class="col-md-55">
               <div class="thumbnail">
                 <div class="image view view-first">
-                  <img style="width: 100%; display: block;" src="images/4.jpg" alt="image" />
+                  <?php echo $this->Html->image('Gentelella./images/4.jpg', ['alt' => 'image', 'style' => 'width:100%;display:block']) ?>
                   <div class="mask">
                     <p>Your Text</p>
                     <div class="tools tools-bottom">
@@ -103,7 +103,7 @@
             <div class="col-md-55">
               <div class="thumbnail">
                 <div class="image view view-first">
-                  <img style="width: 100%; display: block;" src="images/4.jpg" alt="image" />
+                  <?php echo $this->Html->image('Gentelella./images/4.jpg', ['alt' => 'image', 'style' => 'width:100%;display:block']) ?>
                   <div class="mask">
                     <p>Your Text</p>
                     <div class="tools tools-bottom">
@@ -121,7 +121,7 @@
             <div class="col-md-55">
               <div class="thumbnail">
                 <div class="image view view-first">
-                  <img style="width: 100%; display: block;" src="images/4.jpg" alt="image" />
+                  <?php echo $this->Html->image('Gentelella./images/4.jpg', ['alt' => 'image', 'style' => 'width:100%;display:block']) ?>
                   <div class="mask">
                     <p>Your Text</p>
                     <div class="tools tools-bottom">
@@ -141,7 +141,7 @@
             <div class="col-md-55">
               <div class="thumbnail">
                 <div class="image view view-first">
-                  <img style="width: 100%; display: block;" src="images/4.jpg" alt="image" />
+                  <?php echo $this->Html->image('Gentelella./images/4.jpg', ['alt' => 'image', 'style' => 'width:100%;display:block']) ?>
                   <div class="mask no-caption">
                     <div class="tools tools-bottom">
                       <a href="#"><i class="fa fa-link"></i></a>
@@ -160,7 +160,7 @@
             <div class="col-md-55">
               <div class="thumbnail">
                 <div class="image view view-first">
-                  <img style="width: 100%; display: block;" src="images/4.jpg" alt="image" />
+                  <?php echo $this->Html->image('Gentelella./images/4.jpg', ['alt' => 'image', 'style' => 'width:100%;display:block']) ?>
                   <div class="mask no-caption">
                     <div class="tools tools-bottom">
                       <a href="#"><i class="fa fa-link"></i></a>
@@ -179,7 +179,7 @@
             <div class="col-md-55">
               <div class="thumbnail">
                 <div class="image view view-first">
-                  <img style="width: 100%; display: block;" src="images/4.jpg" alt="image" />
+                  <?php echo $this->Html->image('Gentelella./images/4.jpg', ['alt' => 'image', 'style' => 'width:100%;display:block']) ?>
                   <div class="mask no-caption">
                     <div class="tools tools-bottom">
                       <a href="#"><i class="fa fa-link"></i></a>
@@ -198,7 +198,7 @@
             <div class="col-md-55">
               <div class="thumbnail">
                 <div class="image view view-first">
-                  <img style="width: 100%; display: block;" src="images/4.jpg" alt="image" />
+                  <?php echo $this->Html->image('Gentelella./images/4.jpg', ['alt' => 'image', 'style' => 'width:100%;display:block']) ?>
                   <div class="mask no-caption">
                     <div class="tools tools-bottom">
                       <a href="#"><i class="fa fa-link"></i></a>
@@ -217,7 +217,7 @@
             <div class="col-md-55">
               <div class="thumbnail">
                 <div class="image view view-first">
-                  <img style="width: 100%; display: block;" src="images/4.jpg" alt="image" />
+                  <?php echo $this->Html->image('Gentelella./images/4.jpg', ['alt' => 'image', 'style' => 'width:100%;display:block']) ?>
                   <div class="mask no-caption">
                     <div class="tools tools-bottom">
                       <a href="#"><i class="fa fa-link"></i></a>

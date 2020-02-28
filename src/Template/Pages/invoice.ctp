@@ -145,10 +145,11 @@
               <!-- accepted payments column -->
               <div class="col-xs-6">
                 <p class="lead">Payment Methods:</p>
-                <img src="images/visa.png" alt="Visa">
-                <img src="images/mastercard.png" alt="Mastercard">
-                <img src="images/american-express.png" alt="American Express">
-                <img src="images/paypal2.png" alt="Paypal">
+                <?php echo $this->Html->image('Gentelella./images/visa.png') ?>
+                <?php echo $this->Html->image('Gentelella./images/mastercard.png') ?>
+                <?php echo $this->Html->image('Gentelella./images/american-express.png') ?>
+                <?php echo $this->Html->image('Gentelella./images/paypal2.png') ?>
+
                 <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
                   Etsy doostang zoodles disqus groupon greplin oooj voxy zoodles, weebly ning heekya handango imeem plugg dopplr jibjab, movity jajah plickers sifteo edmodo ifttt zimbra.
                 </p>

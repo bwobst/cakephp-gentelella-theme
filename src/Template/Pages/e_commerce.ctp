@@ -44,20 +44,20 @@
 
           <div class="col-md-7 col-sm-7 col-xs-12">
             <div class="product-image">
-              <img src="images/prod1.jpg" alt="..." />
+            <?php echo $this->Html->image('Gentelella./images/prod1.jpg') ?>
             </div>
             <div class="product_gallery">
               <a>
-                <img src="images/prod2.jpg" alt="..." />
+              <?php echo $this->Html->image('Gentelella./images/prod2.jpg') ?>
               </a>
               <a>
-                <img src="images/prod3.jpg" alt="..." />
+              <?php echo $this->Html->image('Gentelella./images/prod3.jpg') ?>
               </a>
               <a>
-                <img src="images/prod4.jpg" alt="..." />
+              <?php echo $this->Html->image('Gentelella./images/prod4.jpg') ?>
               </a>
               <a>
-                <img src="images/prod5.jpg" alt="..." />
+              <?php echo $this->Html->image('Gentelella./images/prod5.jpg') ?>
               </a>
             </div>
           </div>
