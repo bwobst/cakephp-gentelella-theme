@@ -7,19 +7,20 @@
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
-    <!-- Bootstrap 3.3.5 -->
     <?php echo $this->Html->css('Gentelella./vendors/twbs/bootstrap/dist/css/bootstrap.min'); ?>
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <?php echo $this->Html->css('Gentelella./vendors/fortawesome/font-awesome/css/font-awesome.min'); ?>
+    <?php echo $this->Html->css('Gentelella./vendors/abpetkov/switchery/dist/switchery.min'); ?>
+    <?php echo $this->Html->css('Gentelella./vendors/fronteed/icheck/skins/flat/green'); ?>
+
     <?php if (false) { ?>
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 
-    <?php echo $this->Html->css('Gentelella./vendors/fronteed/icheck/skins/flat/green'); ?>
     <?php echo $this->Html->css('Gentelella./vendors/minddust/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min'); ?>
     <?php echo $this->Html->css('Gentelella./css/maps/jquery-jvectormap-2.0.3'); ?>
     <?php } ?>
-    <?php echo $this->Html->css('Gentelella./build/css/custom.min'); ?>
+
+    <?php echo $this->Html->css('Gentelella./build/css/custom'); ?>
 
     <?php echo $this->fetch('css'); ?>
 
@@ -54,13 +55,15 @@
 
 <?php echo $this->Html->script('Gentelella./vendors/components/jquery/jquery.min'); ?>
 <?php echo $this->Html->script('Gentelella./vendors/twbs/bootstrap/dist/js/bootstrap.min'); ?>
-<?php if (false) { ?>
+<?php echo $this->Html->script('Gentelella./vendors/abpetkov/switchery/dist/switchery.min'); ?>
+<?php echo $this->Html->script('Gentelella./vendors/fronteed/icheck/icheck.min'); ?>
+
+<?php if (false) { // skip-nonstandard assets ?>
 <?php echo $this->Html->script('Gentelella./vendors/ftlabs/fastclick/lib/fastclick'); ?>
 <?php echo $this->Html->script('Gentelella./vendors/rstacruz/nprogress/nprogress'); ?>
 <?php echo $this->Html->script('Gentelella./vendors/Chart.js/dist/Chart.min'); ?>
 <?php echo $this->Html->script('Gentelella./vendors/bernii/gauge.js/dist/gauge.min'); ?>
 <?php echo $this->Html->script('Gentelella./vendors/minddust/bootstrap-progressbar/bootstrap-progressbar.min'); ?>
-<?php echo $this->Html->script('Gentelella./vendors/fronteed/icheck/icheck.min'); ?>
 <?php echo $this->Html->script('Gentelella./vendors/skycons/skycons'); ?>
 <?php echo $this->Html->script('Gentelella./vendors/Flot/jquery.flot'); ?>
 <?php echo $this->Html->script('Gentelella./vendors/Flot/jquery.flot.pie'); ?>
@@ -74,6 +77,7 @@
 <?php echo $this->Html->script('Gentelella./js/moment/moment.min'); ?>
 <?php echo $this->Html->script('Gentelella./js/datepicker/daterangepicker'); ?>
 <?php } ?>
+
 <?php echo $this->Html->script('Gentelella./build/js/custom'); ?>
 
 <?php echo $this->fetch('script'); ?>

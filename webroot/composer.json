@@ -9,7 +9,9 @@
         "rstacruz/nprogress": "*",
         "fronteed/icheck": "*",
         "minddust/bootstrap-progressbar": "*",
-        "bernii/gauge.js": "*"
+        "bernii/gauge.js": "*",
+        "abpetkov/switchery": "*",
+        "fortawesome/font-awesome": "4.4.0"
     },
     "repositories": [
         {
@@ -57,6 +59,18 @@
                     "url": "https://github.com/bernii/gauge.js",
                     "type": "git",
                     "reference":"tags/v1.3.7"
+                }
+            }
+        },
+        {
+            "type":"package",
+            "package": {
+                "name": "abpetkov/switchery",
+                "version": "0.8.2",
+                "source": {
+                    "url": "https://github.com/abpetkov/switchery",
+                    "type": "git",
+                    "reference":"tags/0.8.2"
                 }
             }
         }
