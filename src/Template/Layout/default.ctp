@@ -51,21 +51,13 @@
     </div>
 </div>
 
-<!-- jQuery 2.1.4 -->
-<?php echo $this->Html->script('Gentelella./vendors/jquery/dist/jquery.min'); ?>
-<!-- Bootstrap 3.3.5 -->
+<?php echo $this->Html->script('Gentelella./vendors/components/jquery/jquery.min'); ?>
 <?php echo $this->Html->script('Gentelella./vendors/twbs/bootstrap/dist/js/bootstrap.min'); ?>
-<!-- SlimScroll -->
 <?php echo $this->Html->script('Gentelella./vendors/fastclick/lib/fastclick'); ?>
-<!-- FastClick -->
 <?php echo $this->Html->script('Gentelella./vendors/nprogress/nprogress'); ?>
-<!-- jQuery 2.1.4 -->
 <?php echo $this->Html->script('Gentelella./vendors/Chart.js/dist/Chart.min'); ?>
-<!-- Bootstrap 3.3.5 -->
 <?php echo $this->Html->script('Gentelella./vendors/bernii/gauge.js/dist/gauge.min'); ?>
-<!-- SlimScroll -->
 <?php echo $this->Html->script('Gentelella./vendors/bootstrap-progressbar/bootstrap-progressbar.min'); ?>
-<!-- FastClick -->
 <?php echo $this->Html->script('Gentelella./vendors/iCheck/icheck.min'); ?>
 <?php echo $this->Html->script('Gentelella./vendors/skycons/skycons'); ?>
 <?php echo $this->Html->script('Gentelella./vendors/Flot/jquery.flot'); ?>
