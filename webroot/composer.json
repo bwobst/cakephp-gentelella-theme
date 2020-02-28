@@ -4,6 +4,22 @@
     },
     "require": {
         "twbs/bootstrap": "3.3.6",
-        "components/jquery": "2.2.4"
-    }
+        "components/jquery": "2.2.4",
+        "ftlabs/fastclick": "*"
+
+    },
+    "repositories": [
+        {
+            "type":"package",
+            "package": {
+                "name": "ftlabs/fastclick",
+                "version": "1.0.6",
+                "source": {
+                    "url": "https://github.com/ftlabs/fastclick",
+                    "type": "git",
+                    "reference":"tags/v1.0.6"
+                }
+            }
+        }
+    ]
 }

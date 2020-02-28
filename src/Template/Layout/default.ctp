@@ -53,7 +53,7 @@
 
 <?php echo $this->Html->script('Gentelella./vendors/components/jquery/jquery.min'); ?>
 <?php echo $this->Html->script('Gentelella./vendors/twbs/bootstrap/dist/js/bootstrap.min'); ?>
-<?php echo $this->Html->script('Gentelella./vendors/fastclick/lib/fastclick'); ?>
+<?php echo $this->Html->script('Gentelella./vendors/ftlabs/fastclick/lib/fastclick'); ?>
 <?php echo $this->Html->script('Gentelella./vendors/nprogress/nprogress'); ?>
 <?php echo $this->Html->script('Gentelella./vendors/Chart.js/dist/Chart.min'); ?>
 <?php echo $this->Html->script('Gentelella./vendors/bernii/gauge.js/dist/gauge.min'); ?>
