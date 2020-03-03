@@ -29,6 +29,18 @@
         {
             "type":"package",
             "package": {
+                "name": "rstacruz/nprogress",
+                "version": "0.2.0",
+                "source": {
+                    "url": "https://github.com/rstacruz/nprogress",
+                    "type": "git",
+                    "reference":"tags/v0.2.0"
+                }
+            }
+        },
+        {
+            "type":"package",
+            "package": {
                 "name": "fronteed/icheck",
                 "version": "1.0.2",
                 "source": {
