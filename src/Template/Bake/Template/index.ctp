@@ -17,7 +17,7 @@ $fields = collection($fields)
 
     <div class="title_right">
         <div class="col-md-12 col-sm-12 col-xs-12 form-group pull-right top_search">
-            <?= $this->Html->link('<i class="fa fa-plus"></i>'.__d('gentelella','New'), ['action' => 'add'], ['class'=>'btn btn-success pull-right','escape'=>false]) ?>
+            <?= $this->Html->link('<i class="fa fa-plus"></i> '.__d('gentelella','New'), ['action' => 'add'], ['class'=>'btn btn-success pull-right','escape'=>false]) ?>
         </div>
     </div>
 </div>
@@ -47,15 +47,15 @@ $fields = collection($fields)
           </div>
         <!-- /.box-header -->
         <div class="x_content">
-            <form action="<?php echo $this->Url->build(); ?>" method="POST">
+            <?= $this->Form->create(null, array('role' => 'form', 'class' => 'col-md-4 col-xs-12')) ?>
                 <div class="input-group input-group-sm">
-                    <input type="text" name="search" class="form-control" placeholder="<?= __d('gentelella','Fill in to start search') ?>">
+                    <input type="text" name="search" class="form-control" placeholder="<?= __d('gentelella','Search...') ?>">
                     <span class="input-group-btn">
                 <button class="btn btn-info btn-flat" type="submit"><?= __d('gentelella','Filter') ?></button>
                 </span>
                 </div>
             </form>
-          <table class="table table-hover table-striped">
+          <table class="table table-striped">
             <tr>
 <%  foreach ($fields as $field): %>
               <th><?= $this->Paginator->sort('<%= $field %>') ?></th>
@@ -93,6 +93,7 @@ $fields = collection($fields)
   $pk = '$' . $singularVar . '->' . $primaryKey[0];
 %>
                 <td class="actions" style="white-space:nowrap">
+                  <?= $this->Html->link(__d('gentelella','View'), ['action' => 'view', <%= $pk %>], ['class'=>'btn btn-info btn-xs']) ?>
                   <?= $this->Html->link(__d('gentelella','Edit'), ['action' => 'edit', <%= $pk %>], ['class'=>'btn btn-primary btn-xs']) ?>
                   <?= $this->Form->postLink(__d('gentelella','Delete'), ['action' => 'delete', <%= $pk %>], ['confirm' => __d('gentelella','Confirm to delete this entry?'), 'class'=>'btn btn-danger btn-xs']) ?>
                 </td>
