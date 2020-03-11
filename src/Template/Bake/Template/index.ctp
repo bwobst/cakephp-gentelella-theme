@@ -47,14 +47,7 @@ $fields = collection($fields)
           </div>
         <!-- /.box-header -->
         <div class="x_content">
-            <?= $this->Form->create(null, array('role' => 'form', 'class' => 'col-md-4 col-xs-12')) ?>
-                <div class="input-group input-group-sm">
-                    <input type="text" name="search" class="form-control" placeholder="<?= __d('gentelella','Search...') ?>">
-                    <span class="input-group-btn">
-                <button class="btn btn-info btn-flat" type="submit"><?= __d('gentelella','Filter') ?></button>
-                </span>
-                </div>
-            </form>
+          <?= $this->element('index-search') ?>
           <table class="table table-striped">
             <tr>
 <%  foreach ($fields as $field): %>
