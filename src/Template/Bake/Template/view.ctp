@@ -46,9 +46,8 @@ use Cake\Utility\Inflector;
                 </div>
                 <div class="x_content">
                     <!-- /.box-header -->
-                    <!-- form start -->
-                    <?= $this->Form->create($<%= $singularVar %>, array('role' => 'form')) ?>
                     <div class="box-body">
+                        <dl class="dl-horizontal row">
                         <?php
                         <%
                         foreach ($fields as $field) {
@@ -57,28 +56,22 @@ use Cake\Utility\Inflector;
                             }
                             if (isset($keyFields[$field])) {
                                 $fieldData = $schema->column($field);
-                                if (!empty($fieldData['null'])) {
-                                    %>
-                                    echo $this->Form->control('<%= $field %>', ['options' => $<%= $keyFields[$field] %>, 'empty' => true, 'placeholder' => $<%= $singularVar %>-><%= $field %>, 'disabled' => true]);
-<%
-        } else {
-                                    %>
-                                    echo $this->Form->control('<%= $field %>', ['options' => $<%= $keyFields[$field] %>, $<%= $singularVar %>-><%= $field %>, 'disabled' => true]);
-<%
-        }
+                                %>
+                                ?>
+                                    <dt><%= Inflector::humanize(Inflector::singularize($keyFields[$field])) %></dt>
+                                    <dd><?= $<%= $singularVar %>-><%= $field %> ?></dd>
+                                <?php
+                                <%
                                 continue;
                             }
                             if (!in_array($field, ['created', 'modified', 'updated'])) {
                                 $fieldData = $schema->column($field);
-                                if (($fieldData['type'] === 'date') && (!empty($fieldData['null']))) {
-                                    %>
-                                    echo $this->Form->control('<%= $field %>', ['empty' => true, 'default' => '']);
-                                    <%
-                                } else {
-                                    %>
-                                    echo $this->Form->control('<%= $field %>', ['placeholder' => $<%= $singularVar %>-><%= $field %>, 'disabled' => true]);
-<%
-        }
+                                %>
+                                ?>
+                                    <dt><%= Inflector::humanize($field) %></dt>
+                                    <dd><?= $<%= $singularVar %>-><%= $field %> ?></dd>
+                                <?php
+                                <%
                             }
                         }
                         if (!empty($associations['BelongsToMany'])) {
@@ -90,12 +83,9 @@ use Cake\Utility\Inflector;
                         }
                         %>
                         ?>
+                        </dl>
                     </div>
                 <!-- /.box-body -->
-                    <div class="box-footer">
-                        <?= $this->Form->button(__d('gentelella','Save')) ?>
-                    </div>
-                    <?= $this->Form->end() ?>
                 </div>
             </div>
         </div>
