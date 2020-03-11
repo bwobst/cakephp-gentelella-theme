@@ -9,6 +9,8 @@ You can install using [composer](http://getcomposer.org).
 
 ```
 composer require backstageel/cakephp-gentelella-theme
+npm install
+grunt less
 ```
 
 ### Enable Plugin
