@@ -183,7 +183,7 @@
                   <ul>
                     <li>
                       <a href="#" class="atch-thumb">
-                        <img src="images/1.png" alt="img" />
+                        <?php echo $this->Html->image('Gentelella./images/1.png', ['alt' => 'img']) ?>
                       </a>
 
                       <div class="file-name">
@@ -200,7 +200,7 @@
 
                     <li>
                       <a href="#" class="atch-thumb">
-                        <img src="images/1.png" alt="img" />
+                      <?php echo $this->Html->image('Gentelella./images/1.png', ['alt' => 'img']) ?>
                       </a>
 
                       <div class="file-name">
@@ -215,7 +215,7 @@
                     </li>
                     <li>
                       <a href="#" class="atch-thumb">
-                        <img src="images/1.png" alt="img" />
+                      <?php echo $this->Html->image('Gentelella./images/1.png', ['alt' => 'img']) ?>
                       </a>
 
                       <div class="file-name">

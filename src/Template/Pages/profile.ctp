@@ -49,7 +49,7 @@
               <!-- end of image cropping -->
               <div id="crop-avatar">
                 <!-- Current avatar -->
-                <img class="img-responsive avatar-view" src="images/picture.jpg" alt="Avatar" title="Change the avatar">
+                <?php echo $this->Html->image('Gentelella./images/picture.jpg', ['title' => 'Change the avatar', 'class' => 'img-responsive avatar-view']) ?>
 
                 <!-- Cropping modal -->
                 <div class="modal fade" id="avatar-modal" aria-hidden="true" aria-labelledby="avatar-modal-label" role="dialog" tabindex="-1">
