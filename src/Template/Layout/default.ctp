@@ -18,7 +18,7 @@
     <?php echo $this->Html->css('Gentelella./css/maps/jquery-jvectormap-2.0.3'); ?>
     <?php echo $this->Html->css('Gentelella./vendors/dangrossman/daterangepicker/daterangepicker'); ?>
 
-    <?php echo $this->Html->css('Gentelella./css/custom'); ?>
+    <?php echo $this->Html->css('Gentelella./build/css/custom'); ?>
 
     <?php echo $this->fetch('css'); ?>
 
