@@ -22,6 +22,8 @@
 
     <?php echo $this->fetch('css'); ?>
 
+    <?php echo $this->Html->script('Gentelella./vendors/components/jquery/jquery.min'); ?>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -51,7 +53,6 @@
     </div>
 </div>
 
-<?php echo $this->Html->script('Gentelella./vendors/components/jquery/jquery.min'); ?>
 <?php echo $this->Html->script('Gentelella./vendors/twbs/bootstrap/dist/js/bootstrap.min'); ?>
 <?php echo $this->Html->script('Gentelella./vendors/abpetkov/switchery/dist/switchery.min'); ?>
 <?php echo $this->Html->script('Gentelella./vendors/fronteed/icheck/icheck.min'); ?>
@@ -70,7 +71,17 @@
 <?php echo $this->Html->script('Gentelella./js/flot/jquery.flot.orderBars'); ?>
 <?php echo $this->Html->script('Gentelella./js/flot/date'); ?>
 <?php echo $this->Html->script('Gentelella./js/flot/jquery.flot.spline'); ?>
-<?php echo $this->Html->script('Gentelella./js/maps/jquery-jvectormap-2.0.3.min'); ?>
+
+<?php //echo $this->Html->script('Gentelella./js/maps/jquery-jvectormap-2.0.3.min'); ?>
+<?php echo $this->Html->script('Gentelella./js/jqvmap/dist/jquery.vmap'); ?>
+<?php echo $this->Html->script('Gentelella./js/jqvmap/examples/js/jquery.vmap.sampledata'); ?>
+<?php echo $this->Html->script('Gentelella./js/jqvmap/dist/maps/jquery.vmap.world'); ?>
+
+<?php //echo $this->Html->script('Gentelella./js/maps/jquery-jvectormap-us-aea-en'); ?>
+<?php //echo $this->Html->script('Gentelella./js/maps/jquery-jvectormap-world-mill-en'); ?>
+
+
+
 <?php echo $this->Html->script('Gentelella./vendors/dangrossman/daterangepicker/moment.min'); ?>
 <?php echo $this->Html->script('Gentelella./vendors/dangrossman/daterangepicker/daterangepicker'); ?>
 
