@@ -51,10 +51,7 @@
         </div>
 
         <div class="col-md-9 col-sm-9 col-xs-12">
-          <div id="placeholder33" style="height: 260px; display: none" class="demo-placeholder"></div>
-          <div style="width: 100%;">
-            <div id="canvas_dahs" class="demo-placeholder" style="width: 100%; height:270px;"></div>
-          </div>
+            <div id="chart_plot_01" class="demo-placeholder"></div>
         </div>
         <div class="col-md-3 col-sm-3 col-xs-12 bg-white">
           <div class="x_title">
@@ -341,7 +338,7 @@
 
             <div class="sidebar-widget">
               <h4>Profile Completion</h4>
-              <canvas width="150" height="80" id="foo" class="" style="width: 160px; height: 100px;"></canvas>
+              <canvas width="150" height="80" id="chart_gauge_01" class="" style="width: 160px; height: 100px;"></canvas>
               <div class="goal-wrapper">
                 <span class="gauge-value pull-left">$</span>
                 <span id="gauge-text" class="gauge-value pull-left">3,200</span>
