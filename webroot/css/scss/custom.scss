@@ -1,3 +1,5 @@
+@use "_overrides.scss";
+
 // Glyphicons  icons
 @font-face{font-family:'Glyphicons Halflings';src:url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.eot');src:url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.woff') format('woff'),url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.ttf') format('truetype'),url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');}.glyphicon{position:relative;top:1px;display:inline-block;font-family:'Glyphicons Halflings';font-style:normal;font-weight:normal;line-height:1;-webkit-font-smoothing:antialiased;}
 .glyphicon-asterisk               { &:before { content: "\002a"; } }
@@ -474,7 +476,7 @@
 
 
 @media (min-width: 480px) {
-  
+
   .nav_menu {
     position: static;
   }
@@ -531,7 +533,7 @@ body .container.body .right_col {
   .item{
     display:block;
   }
-  
+
 }
 @media (max-width: 1200px) {
   .x_title h2 {
@@ -713,7 +715,7 @@ table.no-margin .progress {
   .col-md-55 {
     width: 20%;
   }
-  
+
 }
 @media (min-width: 992px) {
   .col-md-55 {
@@ -4681,7 +4683,7 @@ ul.notifications {
     padding: 5px 10px;
     font-size: 12px;
     line-height: 1.5;
-} 
+}
 .input-group-addon {
   padding: 6px 12px;
   font-size: 14px;
