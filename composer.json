@@ -30,6 +30,13 @@
   "support": {
     "issues": "https://github.com/maiconpinto/cakephp-gentelella-theme/issues",
     "source": "https://github.com/maiconpinto/cakephp-gentelella-theme"
+  },
+  "scripts": {
+      "post-update-cmd": [
+        "@composer update --working-dir=webroot",
+        "npm install",
+        "grunt less"
+      ]
   }
 }
 
