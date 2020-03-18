@@ -79,7 +79,8 @@
 <?php echo $this->Html->script('Gentelella./vendors/dangrossman/daterangepicker/moment.min'); ?>
 <?php echo $this->Html->script('Gentelella./vendors/dangrossman/daterangepicker/daterangepicker'); ?>
 
-<?php echo $this->Html->script('Gentelella./build/js/custom'); ?>
+<?php echo $this->Html->script('Gentelella./js/base'); ?>
+<?php echo $this->Html->script('Gentelella./js/custom'); ?>
 
 <?php echo $this->fetch('script'); ?>
 <?php echo $this->fetch('scriptBottom'); ?>
