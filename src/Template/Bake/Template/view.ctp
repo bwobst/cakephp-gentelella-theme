@@ -1,20 +1,20 @@
 <%
 use Cake\Utility\Inflector;
 %>
-<div class="page-title">
-    <div class="title_left">
+<div class="row">
+    <div class="col-md-6">
         <h3>
             <%= $singularHumanName %>
             <small><?= __d('gentelella','<%= Inflector::humanize($action) %>') ?></small>
         </h3>
     </div>
 
-    <div class="title_right">
+    <div class="col-md-6">
         <div class="col-md-12 col-sm-12 col-xs-12 form-group pull-right top_search">
             <?= $this->Html->link('<i class="fa fa-chevron-left"></i>'.__d('gentelella',' Back'), ['action' => 'index'], ['class' => 'btn btn-success pull-right','escape'=>false]) ?>
         </div>
     </div>
-    </div>
+</div>
 
 <!-- Main content -->
     <div class="row">

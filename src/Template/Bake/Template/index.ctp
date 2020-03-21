@@ -7,15 +7,15 @@ $fields = collection($fields)
   })
   ->take(7);
 %>
-<div class="page-title">
-    <div class="title_left">
+<div class="row">
+    <div class="col-md-6">
         <h3>
             <%= $singularHumanName %>
             <small><?= __d('gentelella','<%= Inflector::humanize($action) %>') ?></small>
         </h3>
     </div>
 
-    <div class="title_right">
+    <div class="col-md-6">
         <div class="col-md-12 col-sm-12 col-xs-12 form-group pull-right top_search">
             <?= $this->Html->link('<i class="fa fa-plus"></i> '.__d('gentelella','New'), ['action' => 'add'], ['class'=>'btn btn-success pull-right','escape'=>false]) ?>
         </div>
