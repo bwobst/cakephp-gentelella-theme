@@ -11,7 +11,7 @@ use Cake\Utility\Inflector;
 
     <div class="title_right">
         <div class="col-md-12 col-sm-12 col-xs-12 form-group pull-right top_search">
-            <?= $this->Html->link('<i class="fa fa-dashboard"></i>'.__d('gentelella',' Back'), ['action' => 'index'], ['class'=>'btn btn-success pull-right','escape'=>false]) ?>
+            <?= $this->Html->link('<i class="fa fa-chevron-left"></i>'.__d('gentelella',' Back'), ['action' => 'index'], ['class'=>'btn btn-success pull-right','escape'=>false]) ?>
         </div>
     </div>
 </div>
