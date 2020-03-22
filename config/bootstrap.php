@@ -16,4 +16,4 @@ Configure::write('Theme', [
     ]
 ]);
 
-Plugin::load('BootstrapUI');
+$app->addPlugin('BootstrapUI');
