@@ -37,6 +37,9 @@
         "npm install",
         "grunt less"
       ]
+  },
+  "config": {
+    "preferred-install": "source"
   }
 }
 
