@@ -1,3 +1,5 @@
+@sidebar_color: black;
+
 .content-header {
     margin-top: 60px;
 }
@@ -28,17 +30,38 @@ a {
     padding-left: 0;
 }
 
-.main_container.full_width {
+.main_container {
+    background-color: @sidebar_color;
 
-    .right_col {
-        margin-left: 0 !important;
+    &.full_width {
+
+        .right_col {
+            margin-left: 0 !important;
+        }
+
+        .top_nav {
+            display: none;
+        }
     }
 
-    .top_nav {
-        display: none;
+    .left_col,
+    .nav_title {
+        background-color: @sidebar_color;
     }
+
+}
+
+.nav li.current-page {
+    background: rgba(255, 255, 255, 0.1);
 }
 
 .user-profile img {
     object-fit: cover;
+}
+
+.site_title {
+    padding-left:0;
+    img {
+        margin: 0 auto;
+    }
 }
