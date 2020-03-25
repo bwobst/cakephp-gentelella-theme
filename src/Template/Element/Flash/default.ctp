@@ -13,6 +13,10 @@ $types = [
         'alert-class' => 'alert-danger',
         'fa-class' => 'fa-ban'
     ],
+    'Flash/warning' => [
+        'alert-class' => 'alert-warning',
+        'fa-class' => 'fa-warning'
+    ],
     'Flash/info' => [
         'alert-class' => 'alert-info',
         'fa-class' => 'fa-exclamation'
